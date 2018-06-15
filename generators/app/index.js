@@ -7,7 +7,9 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the scrumtrulescent ${chalk.red('generator-test-6-month')} generator!`)
+      yosay(
+        `Welcome to the scrumtrulescent ${chalk.red('generator-test-6-month')} generator!`
+      )
     );
 
     const prompts = [
